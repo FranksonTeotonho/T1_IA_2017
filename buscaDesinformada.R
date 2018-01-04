@@ -2,7 +2,6 @@ buscaEmLargura <- function(inicial, objetivo){
   
   abertos <- list(inicial)
   fechados <- list()
-
   while(length(abertos) != 0){
     atual <- abertos[[1]]
     abertos <- abertos[-1]
